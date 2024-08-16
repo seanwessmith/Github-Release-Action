@@ -24,7 +24,6 @@ jobs:
       with:
         title: MyReleaseMessage
         tag: MyTag
-        notes: MyNotes
 ```
 
 ## Mandatory Arguments
@@ -39,9 +38,6 @@ jobs:
 
 ### tag
 `tag` can be used to set the tag of the release
-
-### notes
-`notes` can be used to set notes for the release
 
 ## Notes
 
