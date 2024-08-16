@@ -9,6 +9,9 @@ inputs:
   title:
     description: "The name of the release to publish"
     required: true
+  tag:
+    description: "The tag of the release to publish"
+    required: false
   workdir:
     description: "Directory of the repository that the should create the release"
     required: false
@@ -21,3 +24,4 @@ runs:
       env:
         INPUT_TITLE: ${{ inputs.title }}
         INPUT_WORKDIR: ${{ inputs.workdir }}
+        INPUT_TAG: ${{ inputs.tag }}
